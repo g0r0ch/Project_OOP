@@ -1,4 +1,4 @@
-# class StripChars:
+## class StripChars:
 import math
 class Derivate:
     def __init__(self, func):
