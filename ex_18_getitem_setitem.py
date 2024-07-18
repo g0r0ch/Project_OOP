@@ -25,7 +25,7 @@ class Student:
             raise TypeError("place for your prime")
         del self.marks[key]
 
-s1 = Student("Sergey", [5, 5, 3, 2, 50])
+s1 = Student("Sergey", [5, 5, 3, 2, 5])
 del s1[2]
 s1[6] = -3
 print(s1.marks)
