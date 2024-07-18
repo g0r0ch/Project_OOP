@@ -32,7 +32,7 @@ class Clock:
     def __iadd__(self, other):
         print("__iadd__")
         if not isinstance(other, (int, Clock)):
-            raise ArithmeticErro("Operand should be int type or Clock")
+            raise ArithmeticError("Operand should be int type or Clock")
 
         sc = other
         if isinstance(other, Clock):
